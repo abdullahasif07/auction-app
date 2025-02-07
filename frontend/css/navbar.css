@@ -1,0 +1,65 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  height: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  list-style-type: none;
+  border-bottom: 2px solid #eaeaea;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; 
+  margin-bottom: 20px;
+  /* Add this to ensure the navbar is always on top */
+}
+
+.navbar-sub-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.navbar-item {
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.navbar-item:hover {
+  color: #007bff;
+}
+
+.navbar-logout {
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.2s;
+  color: #ffffff;
+  background-color: #dc3545;
+}
+
+.navbar-logout:hover {
+  background-color: #292929;
+  color:white;
+}
+
+.navbar-img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
